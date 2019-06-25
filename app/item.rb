@@ -5,4 +5,11 @@ class Item
     @name = name
     @price = price
   end
+  def self.price
+    @price
+  end
+  def self.name
+    @price
+  end
+
 end
